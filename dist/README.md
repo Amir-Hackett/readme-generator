@@ -1,8 +1,8 @@
-# Readme Generator
-  ![Github license](https://img.shields.io/badge/license-Mozilla,MIT,GPL,Apache-blue.svg)
+# g
+  ![Github license](https://img.shields.io/badge/license-Mozilla,MIT-blue.svg)
 
   ## Description
-  To generate a readme.md throught the command line
+  g
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,22 +14,22 @@
   * [Questions](#questions)
   
   ## Installation
-  node.js
+  g
 
   ## Usage
-  through the command line
+  g
 
   ## License
-  This Project is licensed under Mozilla,MIT,GPL,Apache
+  This Project is licensed under undefined 
 
   ## Languages
-  This Project uses built using the following languages: HTML,ES6,jQuery,Bootstrap
+  This Project uses built using the following languages:  JavaScript
 
   ## Contributing
-  j
+  
 
   ## Tests
-  just run tests
+  
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at amir.hackett@gmail.com. You can view more of my projects at https://github.com/amir-hackett.
+  If you have any questions about this projects, please contact me directly at g. You can view more of my projects at https://github.com/g.

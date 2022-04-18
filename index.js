@@ -53,7 +53,7 @@ const questions = () => {
           {
             type: 'input',
             name: 'usage',
-            message: 'How do we this project?'
+            message: 'How do we use this project?'
           },
           {
             type: 'checkbox',
@@ -65,7 +65,7 @@ const questions = () => {
             type: 'checkbox',
             name: 'languages',
             message: 'What did you build this project with? (Check all that apply)',
-            choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+            choices: [' JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
           },
           {
             type: 'input',
@@ -93,7 +93,7 @@ function writeFile(fileName, data) {
         // if error there's an error
         if (err) throw err
         //if successful
-        console.log('README has been successfully created in dist folder!')
+        console.log('README.md has been successfully created in dist folder!')
     })
 }
 
