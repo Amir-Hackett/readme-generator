@@ -2,6 +2,9 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
 
+// link to markdown generator
+const generatePage = require('./utils/generateMarkdown')
+
 // TODO: Create an array of questions for user input
 const questions = () => {
     //this creates the key value of the questions
@@ -78,7 +81,7 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeFile(fileName, data) {
     // writes readme file in dist folder
     fs.writeFile('./dist/README.md', data, (err)=> {
         // if error there's an error
@@ -89,7 +92,22 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+// Promise Chain: Series of Promise-based functions that run in order
+function init() {
+    questions()
+    //gets user answers
+    .then(answers => {
+        return generatePage(answers)
+    })
+    //use answer data to display on page
+    .then(data => {
+        return writeFile(data)
+    })
+    // if error
+    .catch(err => {
+        console.log(err)
+    })
+}
 
 // Function call to initialize app
 init();
