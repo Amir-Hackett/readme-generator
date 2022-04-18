@@ -10,6 +10,11 @@ const questions = () => {
     //this creates the key value of the questions
     return inquirer.prompt([
         {
+            type: 'input',
+            name: 'title',
+            message: 'What is the title of your project?'
+          },
+        {
            type: 'input',
            name: 'github',
            message: 'What is your GitHub username? (Required)',
@@ -35,11 +40,6 @@ const questions = () => {
              }
            }
          },
-         {
-            type: 'input',
-            name: 'title',
-            message: 'What is the title of your project?'
-          },
           {
             type: 'input',
             name: 'description',
@@ -81,9 +81,10 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
+
 function writeFile(fileName, data) {
     // writes readme file in dist folder
-    fs.writeFile('./dist/README.md', data, err => {
+    fs.writeFile('./dist/README.md', data, (err) => {
         // if error there's an error
         if (err) throw err
         //if successful
@@ -101,7 +102,7 @@ function init() {
     })
     //use answer data to display on page
     .then(data => {
-        return writeFile(data)
+        return writeFile('README.md', data)
     })
     // if error
     .catch(err => {
