@@ -43,17 +43,17 @@ const questions = () => {
           {
             type: 'input',
             name: 'description',
-            message: 'Give a description of your project:'
+            message: 'Give a short description of your project:'
           },
           {
             type: 'input',
-            name: 'description',
-            message: 'What are the installation instructions?'
+            name: 'install',
+            message:'What are the steps required to install your project?'
           },
           {
             type: 'input',
-            name: 'description',
-            message: 'What are the instructions for the use of your project?'
+            name: 'usage',
+            message: 'How do we this project?'
           },
           {
             type: 'checkbox',
@@ -72,6 +72,11 @@ const questions = () => {
             name: 'instructions',
             message: 'Please give instructions on how to run tests on your project:'
           },
+          {
+            type: 'input',
+            name: 'contributors',
+            message: 'What does the user need to know about contributing to the repo?'
+        },
           {
             type: 'input',
             name: 'questions',

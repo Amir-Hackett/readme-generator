@@ -38,7 +38,36 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const licenseSection = `## License`
+  switch (license) {
+    // name of the license
+  case 'Mozilla':
+    // returns the  markdown section license and the link to the license
+  return `${licenseSection}
+  This project is licensed under the Mozilla license.
+  To learn more about the Mozilla license, visit their site at ${renderLicenseLink(license)}`;
+  case 'MIT':
+   return `${licenseSection}
+   This project is licensed under the MIT license.
+  To learn more about the MIT license, visit their site at ${renderLicenseLink(license)}`;
+  case 'GPL':
+  return `${licenseSection}
+  This project is licensed under the GPL license.
+  To learn more about the GPL license, visit their site at ${renderLicenseLink(license)}`;
+  case 'Boost':
+  return `${licenseSection}
+  This project is licensed under the Boost license.
+  To learn more about the Boost license, visit their site at ${renderLicenseLink(license)}`;
+  case 'Apache':
+  return `${licenseSection}
+  This project is licensed under the Apache license.
+  To learn more about the Apache license, visit their site at ${renderLicenseLink(license)}`;
+  default:
+    // If there is no license, return an empty string
+  return '';
+  };
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
