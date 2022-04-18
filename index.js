@@ -83,7 +83,7 @@ const questions = () => {
 // TODO: Create a function to write README file
 function writeFile(fileName, data) {
     // writes readme file in dist folder
-    fs.writeFile('./dist/README.md', data, (err)=> {
+    fs.writeFile('./dist/README.md', data, err => {
         // if error there's an error
         if (err) throw err
         //if successful
