@@ -12,7 +12,7 @@ const questions = () => {
         {
            type: 'input',
            name: 'github',
-           message: 'What is your GitHub username?',
+           message: 'What is your GitHub username? (Required)',
            validate: nameInput => {
             if (nameInput){
               return true
@@ -25,7 +25,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'email',
-            message: 'What is your email address?',
+            message: 'What is your email address? (Required)',
             validate: nameInput => {
              if (nameInput){
                return true
@@ -43,7 +43,7 @@ const questions = () => {
           {
             type: 'input',
             name: 'description',
-            message: 'Give a description of your project?'
+            message: 'Give a description of your project:'
           },
           {
             type: 'input',
@@ -70,7 +70,7 @@ const questions = () => {
           {
             type: 'input',
             name: 'instructions',
-            message: 'Please give instructions on how to run tests on your project?'
+            message: 'Please give instructions on how to run tests on your project:'
           },
           {
             type: 'input',
