@@ -41,9 +41,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   const licenseSection = `## License`
   switch (license) {
-    // name of the license
   case 'Mozilla':
-    // returns the  markdown section license and the link to the license
   return `${licenseSection}
   This project is licensed under the Mozilla license.
   To learn more about the Mozilla license, visit their site at ${renderLicenseLink(license)}`;
@@ -64,7 +62,6 @@ function renderLicenseSection(license) {
   This project is licensed under the Apache license.
   To learn more about the Apache license, visit their site at ${renderLicenseLink(license)}`;
   default:
-    // If there is no license, return an empty string
   return '';
   };
 }
