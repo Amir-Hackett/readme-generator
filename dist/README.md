@@ -1,27 +1,35 @@
+# Readme Generator
+  ![Github license](https://img.shields.io/badge/license-Mozilla,MIT,GPL,Apache-blue.svg)
 
-  # AFJF
+  ## Description
+  To generate a readme.md throught the command line
 
   ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Languages](#languages)
+  * [Contributing](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
-  ## Description 
-F
   ## Installation
-undefined
+  node.js
+
   ## Usage
-undefined
-  
+  through the command line
+
+  ## License
+  This Project is licensed under Mozilla,MIT,GPL,Apache
+
+  ## Languages
+  This Project uses built using the following languages: HTML,ES6,jQuery,Bootstrap
+
   ## Contributing
-undefined
+  j
+
   ## Tests
-undefined
+  just run tests
+
   ## Questions
-Thank you so much for using my application! 
-Feel free to reach out to me at F 
-or visit my GitHub profile at [undefined](https://github.com/undefined)
+  If you have any questions about this projects, please contact me directly at amir.hackett@gmail.com. You can view more of my projects at https://github.com/amir-hackett.

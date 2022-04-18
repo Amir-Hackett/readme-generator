@@ -72,7 +72,40 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Languages](#languages)
+  * [Contributing](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
+  ## Installation
+  ${data.install}
+
+  ## Usage
+  ${data.usage}
+
+  ## License
+  This Project is licensed under ${data.license}
+
+  ## Languages
+  This Project uses built using the following languages: ${data.languages}
+
+  ## Contributing
+  ${data.contributors}
+
+  ## Tests
+  ${data.tests}
+
+  ## Questions
+  If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
 `;
 }
 
