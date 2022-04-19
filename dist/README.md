@@ -1,8 +1,8 @@
-# g
-  ![Github license](https://img.shields.io/badge/license-Mozilla,MIT-blue.svg)
+# h
+  
 
   ## Description
-  g
+  h
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,16 +14,16 @@
   * [Questions](#questions)
   
   ## Installation
-  g
+  h
 
   ## Usage
-  g
+  h
 
   ## License
-  This Project is licensed under undefined 
+  This Project is licensed under  
 
   ## Languages
-  This Project uses built using the following languages:  JavaScript
+  This Project uses built using the following languages:  
 
   ## Contributing
   
@@ -32,4 +32,4 @@
   
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at g. You can view more of my projects at https://github.com/g.
+  If you have any questions about this projects, please contact me directly at h. You can view more of my projects at https://github.com/h.

@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case 'Mozilla':
-      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+      return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
     case 'MIT':
-      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+      return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
     case 'GPL':
-      return '[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)';
+      return '![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)]';
     case 'Boost':
-      return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+      return '![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]';
     case 'Apache':
-      return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';  
+      return '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]';  
     default:
       return '';
   }
@@ -68,7 +68,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ![Github license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -89,10 +89,10 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  This Project is licensed under ${data.license} 
+  This Project is licensed under ${renderLicenseSection(data.license)} 
 
   ## Languages
-  This Project uses built using the following languages: ${data.languages}
+  This Project uses built using the following languages: ${data.languages} 
 
   ## Contributing
   ${data.contributors}
