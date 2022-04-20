@@ -3,7 +3,7 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 
 // link to markdown generator
-const generatePage = require('./utils/generateMarkdown')
+const generatePage = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -56,16 +56,16 @@ const questions = () => {
             message: 'How do we use this project?'
           },
           {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
-            message: 'What licenses did you use for this project? (Check all that apply)',
+            message: 'Choose the license fpr the project:',
             choices: ['Mozilla', 'MIT', 'GPL', 'Apache', 'Boost', 'None']
           },
           {
             type: 'checkbox',
             name: 'languages',
             message: 'What did you build this project with? (Check all that apply)',
-            choices: [' JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+            choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
           },
           {
             type: 'input',
