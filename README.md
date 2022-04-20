@@ -9,10 +9,10 @@
   - [Usage](#usage)
 
   ## Presentation
-
+![recording of index.js](./utils/screen-recording.gif)
 
   ## Description:
-  The above video is a demonstration of how this application is supposed to work. 
+  The above gif is a demonstration of how this application is supposed to work. 
   
   - WHEN I am prompted for information about my application repositor
     - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
