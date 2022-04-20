@@ -1,11 +1,11 @@
-# fag
+# readme.md generator
   
  
-  ![Mozilla](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+  ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
 
   ## Description
-  afga
+  this is a test 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,24 +17,24 @@
   * [Questions](#questions)
   
   ## Installation
-  agf
+  open terminal and run node index.js
 
   ## Usage
-  afagf
+  use this in the terminal
 
   ##License 
   
-  This application is covered under [Mozilla License](https://opensource.org/licenses/MPL-2.0). 
-  
+  This application is covered under [MIT License](https://opensource.org/licenses/MIT).
+    
 
   ## Languages
-  This Project uses built using the following languages:  HTML, CSS, jQuery 
+  This Project uses built using the following languages: JavaScript, HTML, ES6 
 
   ## Contributing
-  sfgs
+  pull or fork the repo off my github
 
   ## Tests
-  gfas
+  downlown through github and run through terminal
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at afga. You can view more of my projects at https://github.com/fagf.
+  If you have any questions about this projects, please contact me directly at amir.hackett@gmail.com. You can view more of my projects at https://github.com/amir-hackett.
