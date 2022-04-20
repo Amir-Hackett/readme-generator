@@ -1,11 +1,11 @@
-# aga
+# fag
   
  
-  ![GPL](https://img.shields.io/badge/License-GPL_v2-blue.svg)
+  ![Mozilla](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
   
 
   ## Description
-  daf
+  afga
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,24 +17,24 @@
   * [Questions](#questions)
   
   ## Installation
-  adfa
+  agf
 
   ## Usage
-  daf
+  afagf
 
   ##License 
   
-  This application is covered under [GPL License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
-    
+  This application is covered under [Mozilla License](https://opensource.org/licenses/MPL-2.0). 
+  
 
   ## Languages
-  This Project uses built using the following languages: CSS ,ES6 ,jQuery  
+  This Project uses built using the following languages:  HTML, CSS, jQuery 
 
   ## Contributing
-  adfa
+  sfgs
 
   ## Tests
-  dad
+  gfas
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at dafd. You can view more of my projects at https://github.com/dgad.
+  If you have any questions about this projects, please contact me directly at afga. You can view more of my projects at https://github.com/fagf.

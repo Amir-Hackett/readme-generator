@@ -33,7 +33,7 @@ function renderLicenseLink(license) {
 
   if (license == 'Mozilla') {
     return `
-  This application is covered under [The Mozilla License](https://opensource.org/licenses/MPL-2.0). 
+  This application is covered under [Mozilla License](https://opensource.org/licenses/MPL-2.0). 
   `
   } else if (license == 'MIT') {
     return `
