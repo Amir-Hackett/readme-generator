@@ -9,7 +9,8 @@
   - [Usage](#usage)
 
   ## Presentation
-![recording of index.js](./utils/screen-recording.gif)
+  https://user-images.githubusercontent.com/99042050/165652890-1f02b85a-e1a7-4b06-9fc4-a3ca60860c28.mp4
+
 
   ## Description:
   The above gif is a demonstration of how this application is supposed to work. 
